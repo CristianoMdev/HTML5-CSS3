@@ -1,0 +1,140 @@
+/* Desktop - 1 */
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 1394px;
+height: 225px;
+left: 23px;
+top: 18px;
+
+background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #C4C4C4;
+
+
+/* Ellipse 1 */
+
+position: absolute;
+width: 176px;
+height: 165px;
+left: 120px;
+top: 33px;
+
+background: #C4C4C4;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+/* NOME DO GRUPO */
+
+position: absolute;
+width: 813px;
+height: 109px;
+left: calc(50% - 813px/2 + 162.5px);
+top: calc(50% - 109px/2 - 413.5px);
+
+font-family: Rock Salt;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 153px;
+
+color: #000000;
+
+
+
+/* Meeting 10.11 1 */
+
+position: absolute;
+width: 912px;
+height: 610px;
+left: 23px;
+top: 316px;
+
+background: url(Meeting 10.11.png);
+
+
+/* Informações sobre o grupo: definição do nome, origem e escolha da logomarca, citar as 3 características em comum, resumo do que foi discutido na meeting. */
+
+position: absolute;
+width: 434px;
+height: 610px;
+left: 968px;
+top: 316px;
+
+font-family: Arapey;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 53px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Rectangle 2 */
+
+position: absolute;
+width: 148px;
+height: 41px;
+left: 31px;
+top: 258px;
+
+background: #C4C4C4;
+
+
+/* Rectangle 3 */
+
+position: absolute;
+width: 152px;
+height: 43px;
+left: 208px;
+top: 258px;
+
+background: #C4C4C4;
+
+
+/* Botões de acesso */
+
+position: absolute;
+width: 136px;
+height: 36px;
+left: 37px;
+top: 267px;
+
+font-family: Arapey;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+
+
+
+/* Botões de acesso */
+
+position: absolute;
+width: 136px;
+height: 36px;
+left: 216px;
+top: 269px;
+
+font-family: Arapey;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+
+
+
