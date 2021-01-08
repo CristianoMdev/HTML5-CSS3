@@ -1,0 +1,27 @@
+body { 
+    background-color: rgb(54, 54, 54);
+    color: rgb(53, 150, 247);
+    font: normal 15px Arial;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(53, 150, 247);
+    color:crimson;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+
+
+footer {
+    color: crimson;
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 12px;
+}
