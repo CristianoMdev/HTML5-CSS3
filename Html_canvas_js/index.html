@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+
+    <title>Jogo</title>
+</head>
+
+  <body>
+    <canvas id="canvas1" width="300" height="300"></canvas>
+    <script>
+      //aqui obtereos o contexto grafico e trabalharemos com o canvas
+      //referenciando o cavas 
+      var canvas = document.getElementById('canvas1');
+
+      //obtendo o contexto grafico
+      var context = canvas.getContext('2d');
+
+      //desnhando um retangulo azul 
+      context.fillStyle = 'blue';
+      context.fillRect(50,50,15,15)
+      //contorno vermelho com 1px de espessura
+      context.lineWidth = 1;
+      context.strokeStyle = 'red';
+      context.strokeRect(50,50,15,15)
+
+  //iniciar o caminho apaga os desenhos anteriores
+  context.beginPath();
+
+  //desenhando uma estrela
+  context.moveTo(75,250); //ponto inicial
+  context.lineTo(150,50);
+  context.lineTo(225,250);
+  context.lineTo(50,120);
+  context.lineTo(250,120);
+  context.lineTo(75,250);
+
+  //config linha
+  context.lineWidth = 2;
+  context.strokeStyle = 'black';
+
+  //traçar as linhas
+  context.stroke(); 
+    </script>
+  </body>
+</html>
